@@ -351,3 +351,443 @@
 2018-05-02 01:22:31.393+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 20896ms.
 2018-05-02 02:10:01.510+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 22077ms.
 2018-05-02 02:41:33.009+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1403ms.
+2018-05-07 03:00:48.847+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 6442450944 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2018-05-07 03:00:49.170+0000 INFO [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2018-05-07 03:00:49.330+0000 INFO [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2018-05-07 03:00:49.352+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2018-05-07 03:00:49.353+0000 INFO [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2018-05-07 03:00:49.353+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.http.enabled=true
+2018-05-07 03:00:49.353+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=false
+2018-05-07 03:00:49.353+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.windows_service_name=neo4j
+2018-05-07 03:00:49.353+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.http.listen_address=localhost:7474
+2018-05-07 03:00:49.353+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.https.listen_address=localhost:7473
+2018-05-07 03:00:49.353+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/Users/chelseatroy/workspace/investment_manager/db/neo4j/development
+2018-05-07 03:00:49.353+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.listen_address=localhost:7472
+2018-05-07 03:00:49.354+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.directories.import=import
+2018-05-07 03:00:49.354+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2018-05-07 03:00:49.354+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.enabled=true
+2018-05-07 03:00:49.354+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.https.enabled=false
+2018-05-07 03:00:49.354+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.jvm.additional=-Dunsupported.dbms.udc.source=tarball
+2018-05-07 03:00:49.354+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.tx_log.rotation.retention_policy=1 days
+2018-05-07 03:00:49.354+0000 INFO [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2018-05-07 03:00:49.354+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2018-05-07 03:00:49.354+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2018-05-07 03:00:49.354+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2018-05-07 03:00:49.354+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2018-05-07 03:00:49.355+0000 INFO [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2018-05-07 03:00:49.355+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2018-05-07 03:00:49.355+0000 INFO [o.n.k.i.DiagnosticsManager] CLASSPATH
+2018-05-07 03:00:49.355+0000 INFO [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2018-05-07 03:00:49.355+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2018-05-07 03:00:49.355+0000 INFO [o.n.k.i.DiagnosticsManager] NETWORK
+2018-05-07 03:00:49.355+0000 INFO [o.n.k.i.DiagnosticsManager] System memory information:
+2018-05-07 03:00:49.358+0000 INFO [o.n.k.i.DiagnosticsManager] Total Physical memory: 16.00 GB
+2018-05-07 03:00:49.359+0000 INFO [o.n.k.i.DiagnosticsManager] Free Physical memory: 2.38 GB
+2018-05-07 03:00:49.360+0000 INFO [o.n.k.i.DiagnosticsManager] Committed virtual memory: 7.97 GB
+2018-05-07 03:00:49.360+0000 INFO [o.n.k.i.DiagnosticsManager] Total swap space: 4.00 GB
+2018-05-07 03:00:49.361+0000 INFO [o.n.k.i.DiagnosticsManager] Free swap space: 972.00 MB
+2018-05-07 03:00:49.361+0000 INFO [o.n.k.i.DiagnosticsManager] JVM memory information:
+2018-05-07 03:00:49.361+0000 INFO [o.n.k.i.DiagnosticsManager] Free  memory: 229.44 MB
+2018-05-07 03:00:49.361+0000 INFO [o.n.k.i.DiagnosticsManager] Total memory: 256.00 MB
+2018-05-07 03:00:49.361+0000 INFO [o.n.k.i.DiagnosticsManager] Max   memory: 4.00 GB
+2018-05-07 03:00:49.367+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space]
+2018-05-07 03:00:49.367+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2018-05-07 03:00:49.368+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=5.00 MB, used=4.96 MB, max=240.00 MB, threshold=0.00 B
+2018-05-07 03:00:49.368+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=13.63 MB, used=12.69 MB, max=-1.00 B, threshold=0.00 B
+2018-05-07 03:00:49.368+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=1.88 MB, used=1.69 MB, max=1.00 GB, threshold=0.00 B
+2018-05-07 03:00:49.369+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Eden Space (Heap memory): committed=156.00 MB, used=17.00 MB, max=-1.00 B, threshold=?
+2018-05-07 03:00:49.369+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Survivor Space (Heap memory): committed=5.00 MB, used=5.00 MB, max=-1.00 B, threshold=?
+2018-05-07 03:00:49.369+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Old Gen (Heap memory): committed=95.00 MB, used=3.56 MB, max=4.00 GB, threshold=0.00 B
+2018-05-07 03:00:49.369+0000 INFO [o.n.k.i.DiagnosticsManager] Operating system information:
+2018-05-07 03:00:49.370+0000 INFO [o.n.k.i.DiagnosticsManager] Operating System: Mac OS X; version: 10.12.4; arch: x86_64; cpus: 8
+2018-05-07 03:00:49.371+0000 INFO [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 10240
+2018-05-07 03:00:49.371+0000 INFO [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 102
+2018-05-07 03:00:54.373+0000 INFO [o.n.k.i.DiagnosticsManager] Process id: 65210@Chelseas-MacBook-Pro.local
+2018-05-07 03:00:54.374+0000 INFO [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2018-05-07 03:00:54.392+0000 INFO [o.n.k.i.DiagnosticsManager] Local timezone: America/Chicago
+2018-05-07 03:00:54.392+0000 INFO [o.n.k.i.DiagnosticsManager] JVM information:
+2018-05-07 03:00:54.392+0000 INFO [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2018-05-07 03:00:54.392+0000 INFO [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2018-05-07 03:00:54.392+0000 INFO [o.n.k.i.DiagnosticsManager] VM Version: 25.91-b14
+2018-05-07 03:00:54.393+0000 INFO [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2018-05-07 03:00:54.396+0000 INFO [o.n.k.i.DiagnosticsManager] VM Arguments: [-XX:+UseG1GC, -XX:-OmitStackTraceInFastThrow, -XX:+AlwaysPreTouch, -XX:+UnlockExperimentalVMOptions, -XX:+TrustFinalNonStaticFields, -XX:+DisableExplicitGC, -Djdk.tls.ephemeralDHKeySize=2048, -Djdk.tls.rejectClientInitiatedRenegotiation=true, -Dunsupported.dbms.udc.source=tarball, -Dfile.encoding=UTF-8]
+2018-05-07 03:00:54.396+0000 INFO [o.n.k.i.DiagnosticsManager] Java classpath:
+2018-05-07 03:00:54.397+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jetty-server-9.2.22.v20170606.jar
+2018-05-07 03:00:54.397+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jline-2.12.jar
+2018-05-07 03:00:54.397+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jetty-webapp-9.2.22.v20170606.jar
+2018-05-07 03:00:54.397+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar
+2018-05-07 03:00:54.397+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-import-tool-3.3.5.jar
+2018-05-07 03:00:54.397+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/plugins/*
+2018-05-07 03:00:54.397+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-cypher-logical-plans-3.3-3.3.5.jar
+2018-05-07 03:00:54.397+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/commons-logging-1.1.1.jar
+2018-05-07 03:00:54.397+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-server-3.3.5.jar
+2018-05-07 03:00:54.397+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-shell-3.3.5.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-bolt-3.3.5.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/server-api-3.3.5.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/commons-text-1.1.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/commons-lang-2.6.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/sunrsasign.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-lucene-upgrade-3.3.5.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/rhino-1.7R4.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/bcprov-jdk15on-1.53.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/conf/
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/commons-compress-1.12.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jersey-multipart-1.19.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-cypher-frontend-3.3-3.3.5.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jersey-core-1.19.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jetty-http-9.2.22.v20170606.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-jmx-3.3.5.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-udc-3.3.5.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-index-3.3.5.jar
+2018-05-07 03:00:54.398+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-cypher-compiler-3.3-3.3.5.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jsr311-api-1.1.2.r612.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/jfxrt.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/concurrentlinkedhashmap-lru-1.4.2.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jackson-mapper-asl-1.9.13.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-cypher-compiler-3.1-3.1.8.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/scala-library-2.11.12.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-dbms-3.3.5.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-io-3.3.5.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/commons-io-2.4.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-unsafe-3.3.5.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-lucene-index-3.3.5.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/commons-configuration-1.10.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/localedata.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-ssl-3.3.5.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/commons-lang3-3.5.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-cypher-compiler-3.2-3.2.10.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-cypher-ir-3.3-3.3.5.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/lucene-queryparser-5.5.0.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-common-3.3.5.jar
+2018-05-07 03:00:54.399+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-consistency-check-3.3.5.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-resource-3.3.5.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-graphdb-api-3.3.5.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/opencsv-2.3.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/mimepull-1.9.3.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-values-3.3.5.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jersey-servlet-1.19.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jetty-xml-9.2.22.v20170606.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/lucene-analyzers-common-5.5.0.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jackson-jaxrs-1.9.13.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-cypher-compiler-2.3-2.3.12.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jetty-io-9.2.22.v20170606.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jetty-security-9.2.22.v20170606.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/caffeine-2.3.3.jar
+2018-05-07 03:00:54.400+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-primitive-collections-3.3.5.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-graph-matching-3.1.6.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/parboiled-scala_2.11-1.1.7.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-kernel-3.3.5.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-logging-3.3.5.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/bcpkix-jdk15on-1.53.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunec.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jackson-core-asl-1.9.13.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/cldrdata.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jetty-util-9.2.22.v20170606.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-collections-3.3.5.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-csv-3.3.5.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-security-3.3.5.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-codegen-3.3.5.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/scala-reflect-2.11.12.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jersey-server-1.19.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-cypher-3.3.5.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-command-line-3.3.5.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/zipfs.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/jaccess.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-cypher-frontend-3.1-3.1.8.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/plugins/
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-cypher-ir-3.2-3.2.10.jar
+2018-05-07 03:00:54.401+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-cypher-frontend-2.3-2.3.12.jar
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-cypher-frontend-3.2-3.2.10.jar
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/classes
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-browser-3.1.7.jar
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-graph-algo-3.3.5.jar
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/lucene-core-5.5.0.jar
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/dnsns.jar
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/parboiled-core-1.1.7.jar
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/netty-all-4.1.21.Final.jar
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/javax.servlet-api-3.1.0.jar
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/jetty-servlet-9.2.22.v20170606.jar
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/nashorn.jar
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/lucene-codecs-5.5.0.jar
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/lib/neo4j-configuration-3.3.5.jar
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager] Library path:
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager] /Users/chelseatroy/Library/Java/Extensions
+2018-05-07 03:00:54.402+0000 INFO [o.n.k.i.DiagnosticsManager] /Library/Java/Extensions
+2018-05-07 03:00:54.403+0000 INFO [o.n.k.i.DiagnosticsManager] /Network/Library/Java/Extensions
+2018-05-07 03:00:54.403+0000 INFO [o.n.k.i.DiagnosticsManager] /System/Library/Java/Extensions
+2018-05-07 03:00:54.403+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib/java
+2018-05-07 03:00:54.403+0000 INFO [o.n.k.i.DiagnosticsManager] /Users/chelseatroy/workspace/investment_manager
+2018-05-07 03:00:54.403+0000 INFO [o.n.k.i.DiagnosticsManager] System.properties:
+2018-05-07 03:00:54.403+0000 INFO [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib
+2018-05-07 03:00:54.403+0000 INFO [o.n.k.i.DiagnosticsManager] jdk.tls.rejectClientInitiatedRenegotiation = true
+2018-05-07 03:00:54.403+0000 INFO [o.n.k.i.DiagnosticsManager] gopherProxySet = false
+2018-05-07 03:00:54.403+0000 INFO [o.n.k.i.DiagnosticsManager] path.separator = :
+2018-05-07 03:00:54.403+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] user.country = US
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] user.dir = /Users/chelseatroy/workspace/investment_manager
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.udc.source = tarball
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] user.home = /Users/chelseatroy
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] user.timezone = America/Chicago
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] user.name = chelseatroy
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = org.neo4j.server.CommunityEntryPoint --home-dir=/Users/chelseatroy/workspace/investment_manager/db/neo4j/development --config-dir=/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/conf
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] user.language = en
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] jdk.tls.ephemeralDHKeySize = 2048
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] file.separator = /
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeBig
+2018-05-07 03:00:54.404+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2018-05-07 03:00:54.405+0000 INFO [o.n.k.i.DiagnosticsManager] socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2018-05-07 03:00:54.405+0000 INFO [o.n.k.i.DiagnosticsManager] ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2018-05-07 03:00:54.405+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2018-05-07 03:00:54.405+0000 INFO [o.n.k.i.DiagnosticsManager] Network information:
+2018-05-07 03:00:54.408+0000 INFO [o.n.k.i.DiagnosticsManager] Interface utun2:
+2018-05-07 03:00:54.409+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:6c6b:e367:f968:9fa%utun2
+2018-05-07 03:00:54.409+0000 INFO [o.n.k.i.DiagnosticsManager] Interface utun1:
+2018-05-07 03:00:54.409+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:d528:7844:512f:868%utun1
+2018-05-07 03:00:54.409+0000 INFO [o.n.k.i.DiagnosticsManager] Interface utun0:
+2018-05-07 03:00:54.409+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a15f:2633:9b76:a2b6%utun0
+2018-05-07 03:00:54.409+0000 INFO [o.n.k.i.DiagnosticsManager] Interface awdl0:
+2018-05-07 03:00:54.409+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:4893:f8ff:fe89:1065%awdl0
+2018-05-07 03:00:54.409+0000 INFO [o.n.k.i.DiagnosticsManager] Interface en0:
+2018-05-07 03:00:54.409+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:1402:ad0:d971:3fa4%en0
+2018-05-07 03:00:54.409+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 172.16.55.127
+2018-05-07 03:00:54.409+0000 INFO [o.n.k.i.DiagnosticsManager] Interface lo0:
+2018-05-07 03:00:54.409+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:0:0:1%lo0
+2018-05-07 03:00:54.409+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2018-05-07 03:00:54.409+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2018-05-07 03:00:54.409+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2018-05-07 03:00:59.658+0000 INFO [o.n.b.v.r.WorkerFactory] Bolt Server extension loaded.
+2018-05-07 03:00:59.658+0000 INFO [o.n.b.v.r.WorkerFactory] Bolt enabled on localhost:7472.
+2018-05-07 03:00:59.823+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_2[v0.A.8] record format from store /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db
+2018-05-07 03:00:59.850+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_2[v0.A.8] record format from store /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db
+2018-05-07 03:00:59.850+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_2[v0.A.8]
+2018-05-07 03:01:00.042+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.init: indexes not specifically mentioned above are null
+2018-05-07 03:01:00.069+0000 INFO [o.n.k.NeoStoreDataSource] No commits found after last check point (which is at <no log position given>)
+2018-05-07 03:01:00.073+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db.labels] ...
+2018-05-07 03:01:00.075+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Scan store recovery completed: Number of cleaned crashed pointers: 0 Number of pages visited: 2 Time spent: 1ms
+2018-05-07 03:01:00.078+0000 INFO [o.n.k.i.s.DynamicArrayStore] [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db.labels] high id=1 (defragged=0)
+2018-05-07 03:01:00.078+0000 INFO [o.n.k.i.s.DynamicArrayStore] /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db.labels rebuild id generator, highId=1 defragged count=0
+2018-05-07 03:01:00.078+0000 INFO [o.n.k.i.s.NodeStore] Rebuilding id generator for[/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db] ...
+2018-05-07 03:01:00.079+0000 INFO [o.n.k.i.s.NodeStore] [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db] high id=0 (defragged=0)
+2018-05-07 03:01:00.079+0000 INFO [o.n.k.i.s.NodeStore] /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db rebuild id generator, highId=0 defragged count=0
+2018-05-07 03:01:00.079+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index.keys] ...
+2018-05-07 03:01:00.080+0000 INFO [o.n.k.i.s.DynamicStringStore] [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index.keys] high id=1 (defragged=0)
+2018-05-07 03:01:00.080+0000 INFO [o.n.k.i.s.DynamicStringStore] /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index.keys rebuild id generator, highId=1 defragged count=0
+2018-05-07 03:01:00.080+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] Rebuilding id generator for[/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index] ...
+2018-05-07 03:01:00.081+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index] high id=0 (defragged=0)
+2018-05-07 03:01:00.081+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index rebuild id generator, highId=0 defragged count=0
+2018-05-07 03:01:00.081+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.strings] ...
+2018-05-07 03:01:00.082+0000 INFO [o.n.k.i.s.DynamicStringStore] [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.strings] high id=1 (defragged=0)
+2018-05-07 03:01:00.082+0000 INFO [o.n.k.i.s.DynamicStringStore] /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2018-05-07 03:01:00.082+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.arrays] ...
+2018-05-07 03:01:00.083+0000 INFO [o.n.k.i.s.DynamicArrayStore] [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.arrays] high id=1 (defragged=0)
+2018-05-07 03:01:00.083+0000 INFO [o.n.k.i.s.DynamicArrayStore] /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2018-05-07 03:01:00.083+0000 INFO [o.n.k.i.s.PropertyStore] Rebuilding id generator for[/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db] ...
+2018-05-07 03:01:00.083+0000 INFO [o.n.k.i.s.PropertyStore] [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db] high id=0 (defragged=0)
+2018-05-07 03:01:00.083+0000 INFO [o.n.k.i.s.PropertyStore] /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db rebuild id generator, highId=0 defragged count=0
+2018-05-07 03:01:00.083+0000 INFO [o.n.k.i.s.RelationshipStore] Rebuilding id generator for[/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.relationshipstore.db] ...
+2018-05-07 03:01:00.084+0000 INFO [o.n.k.i.s.RelationshipStore] [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.relationshipstore.db] high id=0 (defragged=0)
+2018-05-07 03:01:00.084+0000 INFO [o.n.k.i.s.RelationshipStore] /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.relationshipstore.db rebuild id generator, highId=0 defragged count=0
+2018-05-07 03:01:00.084+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db.names] ...
+2018-05-07 03:01:00.085+0000 INFO [o.n.k.i.s.DynamicStringStore] [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db.names] high id=1 (defragged=0)
+2018-05-07 03:01:00.085+0000 INFO [o.n.k.i.s.DynamicStringStore] /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2018-05-07 03:01:00.085+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] Rebuilding id generator for[/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db] ...
+2018-05-07 03:01:00.086+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db] high id=0 (defragged=0)
+2018-05-07 03:01:00.086+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db rebuild id generator, highId=0 defragged count=0
+2018-05-07 03:01:00.086+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db.names] ...
+2018-05-07 03:01:00.087+0000 INFO [o.n.k.i.s.DynamicStringStore] [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db.names] high id=1 (defragged=0)
+2018-05-07 03:01:00.087+0000 INFO [o.n.k.i.s.DynamicStringStore] /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db.names rebuild id generator, highId=1 defragged count=0
+2018-05-07 03:01:00.087+0000 INFO [o.n.k.i.s.LabelTokenStore] Rebuilding id generator for[/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db] ...
+2018-05-07 03:01:00.088+0000 INFO [o.n.k.i.s.LabelTokenStore] [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db] high id=0 (defragged=0)
+2018-05-07 03:01:00.088+0000 INFO [o.n.k.i.s.LabelTokenStore] /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db rebuild id generator, highId=0 defragged count=0
+2018-05-07 03:01:00.088+0000 INFO [o.n.k.i.s.SchemaStore] Rebuilding id generator for[/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.schemastore.db] ...
+2018-05-07 03:01:00.089+0000 INFO [o.n.k.i.s.SchemaStore] [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.schemastore.db] high id=1 (defragged=0)
+2018-05-07 03:01:00.089+0000 INFO [o.n.k.i.s.SchemaStore] /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.schemastore.db rebuild id generator, highId=1 defragged count=0
+2018-05-07 03:01:00.089+0000 INFO [o.n.k.i.s.RelationshipGroupStore] Rebuilding id generator for[/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.relationshipgroupstore.db] ...
+2018-05-07 03:01:00.089+0000 INFO [o.n.k.i.s.RelationshipGroupStore] [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.relationshipgroupstore.db] high id=1 (defragged=0)
+2018-05-07 03:01:00.089+0000 INFO [o.n.k.i.s.RelationshipGroupStore] /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.relationshipgroupstore.db rebuild id generator, highId=1 defragged count=0
+2018-05-07 03:01:00.089+0000 INFO [o.n.k.i.s.MetaDataStore] Rebuilding id generator for[/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore] ...
+2018-05-07 03:01:00.091+0000 INFO [o.n.k.i.s.MetaDataStore] [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore] high id=15 (defragged=0)
+2018-05-07 03:01:00.091+0000 INFO [o.n.k.i.s.MetaDataStore] /Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore rebuild id generator, highId=15 defragged count=0
+2018-05-07 03:01:00.093+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.start: indexes not specifically mentioned above are null
+2018-05-07 03:01:00.096+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2018-05-07 03:01:05.640+0000 INFO [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2018-05-07 03:01:05.640+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2018-05-07 03:01:05.641+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2018-05-07 03:01:05.641+0000 INFO [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1525198854192, randomId=-2004435318123298457, storeVersion=15813456178476550, upgradeTime=1525198854192, upgradeId=1}
+2018-05-07 03:01:05.642+0000 INFO [o.n.k.i.DiagnosticsManager] Kernel version: 3.3.5,69f246fab87bc58a931d27cfa5ec5c35f21b95fa
+2018-05-07 03:01:05.642+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2018-05-07 03:01:05.643+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2018-05-07 03:01:05.643+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2018-05-07 03:01:05.643+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2018-05-07 03:01:05.643+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2018-05-07 03:01:05.643+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.8
+2018-05-07 03:01:05.643+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2018-05-07 03:01:05.644+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.8
+2018-05-07 03:01:05.644+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2018-05-07 03:01:05.644+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2018-05-07 03:01:05.644+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.8
+2018-05-07 03:01:05.644+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.8
+2018-05-07 03:01:05.644+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2018-05-07 03:01:05.644+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.8
+2018-05-07 03:01:05.644+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2018-05-07 03:01:05.644+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.8
+2018-05-07 03:01:05.644+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.8
+2018-05-07 03:01:05.644+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.8
+2018-05-07 03:01:05.644+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.8
+2018-05-07 03:01:05.644+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2018-05-07 03:01:05.644+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2018-05-07 03:01:05.644+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2018-05-07 03:01:05.645+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2018-05-07 03:01:05.645+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2018-05-07 03:01:05.645+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore: used=0 high=-1
+2018-05-07 03:01:05.645+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2018-05-07 03:01:05.645+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2018-05-07 03:01:05.645+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2018-05-07 03:01:05.645+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2018-05-07 03:01:05.645+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2018-05-07 03:01:05.645+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2018-05-07 03:01:05.645+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2018-05-07 03:01:05.645+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2018-05-07 03:01:05.645+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2018-05-07 03:01:05.645+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2018-05-07 03:01:05.645+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2018-05-07 03:01:05.646+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2018-05-07 03:01:05.646+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2018-05-07 03:01:05.646+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2018-05-07 03:01:05.646+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2018-05-07 03:01:05.646+0000 INFO [o.n.k.i.DiagnosticsManager] Neostore records:
+2018-05-07 03:01:05.646+0000 INFO [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1525198854192
+2018-05-07 03:01:05.646+0000 INFO [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): -2004435318123298457
+2018-05-07 03:01:05.646+0000 INFO [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2018-05-07 03:01:05.646+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2018-05-07 03:01:05.646+0000 INFO [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15813456178476550
+2018-05-07 03:01:05.647+0000 INFO [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2018-05-07 03:01:05.647+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2018-05-07 03:01:05.647+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2018-05-07 03:01:05.647+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1525198854192
+2018-05-07 03:01:05.647+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2018-05-07 03:01:05.647+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2018-05-07 03:01:05.647+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2018-05-07 03:01:05.647+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2018-05-07 03:01:05.647+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2018-05-07 03:01:05.647+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2018-05-07 03:01:05.647+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2018-05-07 03:01:05.648+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2018-05-07 03:01:05.648+0000 INFO [o.n.k.i.DiagnosticsManager] Transaction log:
+2018-05-07 03:01:05.648+0000 INFO [o.n.k.i.DiagnosticsManager] No transactions found in any log
+2018-05-07 03:01:05.648+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2018-05-07 03:01:05.661+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2018-05-07 03:01:05.661+0000 INFO [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 249779191808 / 77530550272 / 31
+2018-05-07 03:01:05.661+0000 INFO [o.n.k.i.DiagnosticsManager] Storage files: (filename : modification date - size)
+2018-05-07 03:01:05.662+0000 INFO [o.n.k.i.DiagnosticsManager]   index:
+2018-05-07 03:01:05.663+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2018-05-01T13:20:54-0500 - 0.00 B
+2018-05-07 03:01:05.663+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore: 2018-05-06T21:23:05-0500 - 8.00 kB
+2018-05-07 03:01:05.664+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2018-05-06T21:24:27-0500 - 96.00 B
+2018-05-07 03:01:05.664+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.id: 2018-05-06T22:01:00-0500 - 9.00 B
+2018-05-07 03:01:05.664+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labelscanstore.db: 2018-05-06T22:01:00-0500 - 40.00 kB
+2018-05-07 03:01:05.664+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2018-05-06T21:23:05-0500 - 0.00 B
+2018-05-07 03:01:05.664+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2018-05-06T22:01:00-0500 - 9.00 B
+2018-05-07 03:01:05.664+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2018-05-06T21:23:05-0500 - 8.00 kB
+2018-05-07 03:01:05.665+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2018-05-06T22:01:00-0500 - 9.00 B
+2018-05-07 03:01:05.665+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2018-05-06T21:24:27-0500 - 0.00 B
+2018-05-07 03:01:05.665+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2018-05-06T22:01:00-0500 - 9.00 B
+2018-05-07 03:01:05.665+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2018-05-01T13:20:54-0500 - 8.00 kB
+2018-05-07 03:01:05.665+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2018-05-06T22:01:00-0500 - 9.00 B
+2018-05-07 03:01:05.665+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2018-05-06T21:24:27-0500 - 0.00 B
+2018-05-07 03:01:05.665+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2018-05-01T13:20:54-0500 - 8.00 kB
+2018-05-07 03:01:05.666+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2018-05-06T22:01:00-0500 - 9.00 B
+2018-05-07 03:01:05.666+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2018-05-06T22:01:00-0500 - 9.00 B
+2018-05-07 03:01:05.666+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2018-05-06T21:23:05-0500 - 0.00 B
+2018-05-07 03:01:05.666+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2018-05-06T22:01:00-0500 - 9.00 B
+2018-05-07 03:01:05.666+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2018-05-06T21:23:05-0500 - 8.00 kB
+2018-05-07 03:01:05.666+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2018-05-06T22:01:00-0500 - 9.00 B
+2018-05-07 03:01:05.666+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2018-05-01T13:20:54-0500 - 8.00 kB
+2018-05-07 03:01:05.667+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2018-05-06T22:01:00-0500 - 9.00 B
+2018-05-07 03:01:05.667+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2018-05-01T13:20:54-0500 - 8.00 kB
+2018-05-07 03:01:05.667+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2018-05-06T22:01:00-0500 - 9.00 B
+2018-05-07 03:01:05.667+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2018-05-01T13:20:54-0500 - 0.00 B
+2018-05-07 03:01:05.667+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2018-05-06T22:01:00-0500 - 9.00 B
+2018-05-07 03:01:05.667+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2018-05-01T13:20:54-0500 - 0.00 B
+2018-05-07 03:01:05.668+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2018-05-06T22:01:00-0500 - 9.00 B
+2018-05-07 03:01:05.668+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2018-05-01T13:20:54-0500 - 8.00 kB
+2018-05-07 03:01:05.668+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2018-05-06T22:01:00-0500 - 9.00 B
+2018-05-07 03:01:05.668+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2018-05-06T21:23:05-0500 - 8.00 kB
+2018-05-07 03:01:05.668+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2018-05-06T22:01:00-0500 - 9.00 B
+2018-05-07 03:01:05.668+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2018-05-06T21:23:05-0500 - 16.00 B
+2018-05-07 03:01:05.668+0000 INFO [o.n.k.i.DiagnosticsManager]   store_lock: 2018-05-01T13:20:54-0500 - 0.00 B
+2018-05-07 03:01:05.669+0000 INFO [o.n.k.i.DiagnosticsManager] Storage summary: 
+2018-05-07 03:01:05.669+0000 INFO [o.n.k.i.DiagnosticsManager]   Total size of store: 112.24 kB
+2018-05-07 03:01:05.669+0000 INFO [o.n.k.i.DiagnosticsManager]   Total size of mapped files: 112.00 kB
+2018-05-07 03:01:05.669+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2018-05-07 03:01:07.791+0000 INFO [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2018-05-07 03:01:08.934+0000 INFO [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2018-05-07 03:02:19.018+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Neo4j::Migrations::SchemaMigration(migration_id) [provider: {key=lucene+native, version=1.0}]]
+2018-05-07 03:02:19.218+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=1, executor=java.util.concurrent.ThreadPoolExecutor@2aa8a221[Running, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0], batchedUpdates = [0 updates], queuedUpdates = 0}
+2018-05-07 03:02:19.219+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=2, executor=java.util.concurrent.ThreadPoolExecutor@2aa8a221[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0], batchedUpdates = [0 updates], queuedUpdates = 0}
+2018-05-07 03:02:19.262+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Neo4j::Migrations::SchemaMigration(migration_id) [provider: {key=lucene+native, version=1.0}]]
+2018-05-07 03:02:19.635+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:User(uuid) [provider: {key=lucene+native, version=1.0}]]
+2018-05-07 03:02:19.641+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=1, executor=java.util.concurrent.ThreadPoolExecutor@46bec17c[Running, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0], batchedUpdates = [0 updates], queuedUpdates = 0}
+2018-05-07 03:02:19.641+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=2, executor=java.util.concurrent.ThreadPoolExecutor@46bec17c[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0], batchedUpdates = [0 updates], queuedUpdates = 0}
+2018-05-07 03:02:19.646+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:User(uuid) [provider: {key=lucene+native, version=1.0}]]
+2018-05-07 03:19:20.367+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [12]:  Starting check pointing...
+2018-05-07 03:19:20.367+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [12]:  Starting store flush...
+2018-05-07 03:19:20.382+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 12 to [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2018-05-07 03:19:20.387+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 12 to [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2018-05-07 03:19:20.393+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [12]:  Store flush completed
+2018-05-07 03:19:20.393+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [12]:  Starting appending check point entry into the tx log...
+2018-05-07 03:19:20.393+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [12]:  Appending check point entry into the tx log completed
+2018-05-07 03:19:20.393+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [12]:  Check pointing completed
+2018-05-07 03:19:20.393+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2018-05-07 03:19:20.394+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2018-05-07 03:39:50.702+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [15]:  Starting check pointing...
+2018-05-07 03:39:50.702+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [15]:  Starting store flush...
+2018-05-07 03:39:50.710+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 15 to [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2018-05-07 03:39:50.711+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 15 to [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2018-05-07 03:39:50.715+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [15]:  Store flush completed
+2018-05-07 03:39:50.715+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [15]:  Starting appending check point entry into the tx log...
+2018-05-07 03:39:50.715+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [15]:  Appending check point entry into the tx log completed
+2018-05-07 03:39:50.715+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [15]:  Check pointing completed
+2018-05-07 03:39:50.715+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2018-05-07 03:39:50.715+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2018-05-07 03:40:54.539+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Portfolio(uuid) [provider: {key=lucene+native, version=1.0}]]
+2018-05-07 03:40:54.543+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=1, executor=java.util.concurrent.ThreadPoolExecutor@1bb4974d[Running, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0], batchedUpdates = [0 updates], queuedUpdates = 0}
+2018-05-07 03:40:54.544+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=2, executor=java.util.concurrent.ThreadPoolExecutor@1bb4974d[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0], batchedUpdates = [0 updates], queuedUpdates = 0}
+2018-05-07 03:40:54.548+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Portfolio(uuid) [provider: {key=lucene+native, version=1.0}]]
+2018-05-07 03:53:16.743+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Investment(uuid) [provider: {key=lucene+native, version=1.0}]]
+2018-05-07 03:53:16.746+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=1, executor=java.util.concurrent.ThreadPoolExecutor@3dd58a41[Running, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0], batchedUpdates = [0 updates], queuedUpdates = 0}
+2018-05-07 03:53:16.747+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=2, executor=java.util.concurrent.ThreadPoolExecutor@3dd58a41[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0], batchedUpdates = [0 updates], queuedUpdates = 0}
+2018-05-07 03:53:16.750+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Investment(uuid) [provider: {key=lucene+native, version=1.0}]]
+2018-05-07 03:54:50.949+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [27]:  Starting check pointing...
+2018-05-07 03:54:50.949+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [27]:  Starting store flush...
+2018-05-07 03:54:50.963+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 27 to [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2018-05-07 03:54:50.964+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 27 to [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2018-05-07 03:54:50.965+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [27]:  Store flush completed
+2018-05-07 03:54:50.966+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [27]:  Starting appending check point entry into the tx log...
+2018-05-07 03:54:50.966+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [27]:  Appending check point entry into the tx log completed
+2018-05-07 03:54:50.966+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [27]:  Check pointing completed
+2018-05-07 03:54:50.966+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2018-05-07 03:54:50.966+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.

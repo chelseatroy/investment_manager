@@ -19,7 +19,10 @@ Bundler.require(*Rails.groups)
 
 module InvestmentManager
   class Application < Rails::Application
-    
+    config.api_only = true
+
+    config.autoload_paths << Rails.root.join('lib')
+
     config.generators do |g|
       g.orm             :neo4j
     end

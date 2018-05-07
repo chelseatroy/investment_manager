@@ -49,6 +49,6 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  config.neo4j.session_type = :server_db
-  config.neo4j.session_path = 'http://localhost:7474'
+  config.neo4j.session.type = :http
+  config.neo4j.session.path = 'http://localhost:7474'
 end

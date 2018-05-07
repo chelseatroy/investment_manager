@@ -80,8 +80,8 @@ Rails.application.configure do
   # require 'syslog/logger'
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
 
-  config.neo4j.session_type = :server_db
-  config.neo4j.session_path = 'http://localhost:7474'
+  config.neo4j.session.type = :http
+  config.neo4j.session.path = 'http://localhost:7474'
 
 
   if ENV["RAILS_LOG_TO_STDOUT"].present?
