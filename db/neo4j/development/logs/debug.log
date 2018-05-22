@@ -791,3 +791,204 @@ BatchingMultipleIndexPopulator{activeTasks=2, executor=java.util.concurrent.Thre
 2018-05-07 03:54:50.966+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [27]:  Check pointing completed
 2018-05-07 03:54:50.966+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
 2018-05-07 03:54:50.966+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2018-05-07 07:22:33.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1500ms.
+2018-05-08 03:32:34.009+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1433ms.
+2018-05-08 05:01:44.012+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1320ms.
+2018-05-09 01:13:11.005+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1358ms.
+2018-05-09 03:47:49.005+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1519ms.
+2018-05-09 04:40:59.009+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1281ms.
+2018-05-09 05:50:01.014+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1509ms.
+2018-05-09 07:53:57.008+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1495ms.
+2018-05-09 08:53:59.012+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1518ms.
+2018-05-09 10:54:12.902+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 33716ms.
+2018-05-09 12:54:25.294+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 8783ms.
+2018-05-09 14:54:38.216+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6483ms.
+2018-05-09 16:54:51.230+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6453ms.
+2018-05-09 17:54:39.216+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5848ms.
+2018-05-10 05:54:17.352+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6081ms.
+2018-05-10 06:38:49.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1403ms.
+2018-05-10 08:41:17.007+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1401ms.
+2018-05-10 09:41:18.007+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1466ms.
+2018-05-10 11:41:31.499+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 22923ms.
+2018-05-10 13:41:39.283+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7332ms.
+2018-05-10 15:42:12.235+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6549ms.
+2018-05-10 17:42:25.217+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6106ms.
+2018-05-10 18:41:59.229+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6125ms.
+2018-05-11 02:18:58.246+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6060ms.
+2018-05-11 03:31:30.009+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1497ms.
+2018-05-11 04:36:49.008+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1384ms.
+2018-05-11 04:49:15.005+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1342ms.
+2018-05-11 07:37:06.008+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1475ms.
+2018-05-11 08:37:08.009+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1482ms.
+2018-05-11 10:37:21.285+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 27997ms.
+2018-05-11 12:37:34.210+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7309ms.
+2018-05-11 14:37:47.282+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6219ms.
+2018-05-11 16:38:00.249+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6132ms.
+2018-05-11 17:37:48.260+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5785ms.
+2018-05-12 03:20:07.251+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6100ms.
+2018-05-12 04:25:34.005+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1504ms.
+2018-05-12 07:50:40.008+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1430ms.
+2018-05-12 08:50:41.005+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1469ms.
+2018-05-12 10:50:54.357+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 23784ms.
+2018-05-12 12:51:07.321+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6245ms.
+2018-05-12 14:35:28.506+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6145ms.
+2018-05-12 14:48:21.007+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1439ms.
+2018-05-12 15:12:09.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1460ms.
+2018-05-12 15:30:43.005+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1459ms.
+2018-05-12 17:04:14.008+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1332ms.
+2018-05-12 17:24:58.004+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1444ms.
+2018-05-12 19:40:40.009+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1429ms.
+2018-05-12 22:11:55.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1529ms.
+2018-05-12 23:04:03.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1377ms.
+2018-05-12 23:19:12.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1421ms.
+2018-05-13 00:49:34.009+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1438ms.
+2018-05-13 02:15:46.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1490ms.
+2018-05-13 02:25:45.008+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1293ms.
+2018-05-13 02:38:42.007+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1415ms.
+2018-05-13 04:41:02.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1387ms.
+2018-05-13 08:18:21.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1494ms.
+2018-05-13 09:18:22.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1487ms.
+2018-05-13 11:18:35.532+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 31029ms.
+2018-05-13 13:18:48.220+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7924ms.
+2018-05-13 15:19:01.231+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6239ms.
+2018-05-13 16:15:07.217+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6050ms.
+2018-05-13 16:17:01.347+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7499ms.
+2018-05-13 16:20:15.237+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6209ms.
+2018-05-13 16:22:06.241+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5691ms.
+2018-05-13 16:24:32.207+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5889ms.
+2018-05-13 16:32:51.201+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6323ms.
+2018-05-13 16:39:17.230+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6272ms.
+2018-05-13 16:40:52.230+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5070ms.
+2018-05-13 16:42:01.229+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5943ms.
+2018-05-13 16:43:27.273+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5550ms.
+2018-05-13 18:19:03.268+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5503ms.
+2018-05-13 21:27:34.258+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7149ms.
+2018-05-13 23:01:56.005+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1431ms.
+2018-05-13 23:03:37.008+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1318ms.
+2018-05-13 23:11:34.156+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1343ms.
+2018-05-13 23:12:29.005+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1377ms.
+2018-05-13 23:20:16.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1331ms.
+2018-05-13 23:21:12.004+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1335ms.
+2018-05-13 23:23:57.157+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1389ms.
+2018-05-13 23:25:34.004+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1284ms.
+2018-05-13 23:28:01.004+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1299ms.
+2018-05-13 23:29:55.007+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1372ms.
+2018-05-13 23:31:57.008+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1291ms.
+2018-05-14 01:56:24.007+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1264ms.
+2018-05-14 02:02:58.421+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 29915ms.
+2018-05-14 02:15:05.007+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1334ms.
+2018-05-14 02:25:39.008+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1471ms.
+2018-05-14 02:30:44.005+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1379ms.
+2018-05-14 07:30:57.008+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1529ms.
+2018-05-15 01:05:15.005+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1354ms.
+2018-05-15 01:49:01.004+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1495ms.
+2018-05-15 03:17:45.007+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1525ms.
+2018-05-15 03:49:36.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1447ms.
+2018-05-15 06:05:27.010+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1436ms.
+2018-05-15 07:05:29.009+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1536ms.
+2018-05-15 09:05:42.528+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 27336ms.
+2018-05-15 11:05:55.272+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6419ms.
+2018-05-15 13:06:08.213+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5666ms.
+2018-05-15 15:06:22.230+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5180ms.
+2018-05-15 16:06:09.221+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5190ms.
+2018-05-19 05:47:25.646+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5668ms.
+2018-05-19 08:17:10.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1487ms.
+2018-05-19 09:17:12.005+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1390ms.
+2018-05-19 11:17:25.357+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 21125ms.
+2018-05-19 13:17:38.173+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6005ms.
+2018-05-19 15:17:51.218+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5503ms.
+2018-05-19 17:18:04.201+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5440ms.
+2018-05-19 18:17:52.219+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5027ms.
+2018-05-19 23:48:34.235+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5185ms.
+2018-05-20 02:18:16.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1445ms.
+2018-05-20 06:49:37.003+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1525ms.
+2018-05-20 18:23:14.003+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1458ms.
+2018-05-20 18:34:13.004+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1451ms.
+2018-05-20 18:35:30.003+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1317ms.
+2018-05-20 18:42:20.004+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1370ms.
+2018-05-20 18:45:14.003+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1317ms.
+2018-05-20 18:49:15.003+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1288ms.
+2018-05-20 18:51:54.003+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1303ms.
+2018-05-20 18:53:01.004+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1343ms.
+2018-05-20 19:01:46.003+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1285ms.
+2018-05-20 19:04:11.002+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1271ms.
+2018-05-20 19:10:15.012+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1642ms.
+2018-05-20 19:32:58.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1405ms.
+2018-05-20 19:39:23.003+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1303ms.
+2018-05-20 20:29:35.002+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1284ms.
+2018-05-20 20:36:06.003+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1370ms.
+2018-05-20 20:37:02.153+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1274ms.
+2018-05-20 20:38:55.003+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1272ms.
+2018-05-20 20:40:30.004+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1350ms.
+2018-05-20 20:41:28.005+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1350ms.
+2018-05-20 20:43:24.003+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1329ms.
+2018-05-20 20:45:52.004+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1262ms.
+2018-05-20 20:47:13.003+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1249ms.
+2018-05-20 20:58:18.004+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1248ms.
+2018-05-20 21:15:49.003+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1287ms.
+2018-05-20 21:45:22.252+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 27362ms.
+2018-05-20 21:51:42.163+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6283ms.
+2018-05-20 22:08:54.191+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5396ms.
+2018-05-20 22:15:05.170+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5011ms.
+2018-05-20 22:30:08.151+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1283ms.
+2018-05-20 23:05:15.003+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1426ms.
+2018-05-21 01:05:32.006+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1445ms.
+2018-05-21 01:06:13.004+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1507ms.
+2018-05-21 02:48:02.005+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1481ms.
+2018-05-21 05:27:09.008+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1510ms.
+2018-05-22 01:55:35.004+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1492ms.
+2018-05-22 02:01:23.003+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1286ms.
+2018-05-22 02:50:33.471+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [31]:  Starting check pointing...
+2018-05-22 02:50:33.471+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [31]:  Starting store flush...
+2018-05-22 02:50:33.483+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 31 to [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2018-05-22 02:50:33.486+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 31 to [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2018-05-22 02:50:33.487+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [31]:  Store flush completed
+2018-05-22 02:50:33.487+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [31]:  Starting appending check point entry into the tx log...
+2018-05-22 02:50:33.488+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [31]:  Appending check point entry into the tx log completed
+2018-05-22 02:50:33.488+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [31]:  Check pointing completed
+2018-05-22 02:50:33.488+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2018-05-22 02:50:33.488+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2018-05-22 02:51:32.318+0000 INFO [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache after 62 seconds: MATCH (n:`Portfolio`) RETURN count(n) AS count
+2018-05-22 02:51:32.319+0000 INFO [o.n.c.i.CommunityCompatibilityFactory] Discarded stale query from the query cache after 62 seconds: MATCH (n:`Portfolio`) RETURN count(n) AS count
+2018-05-22 02:53:43.140+0000 INFO [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache after 1290302 seconds: MATCH (n:`Portfolio`) RETURN n
+2018-05-22 02:53:43.141+0000 INFO [o.n.c.i.CommunityCompatibilityFactory] Discarded stale query from the query cache after 1290302 seconds: MATCH (n:`Portfolio`) RETURN n
+2018-05-22 03:03:35.608+0000 INFO [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache after 267 seconds: MATCH (n:`Investment`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2018-05-22 03:03:35.609+0000 INFO [o.n.c.i.CommunityCompatibilityFactory] Discarded stale query from the query cache after 267 seconds: MATCH (n:`Investment`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2018-05-22 03:03:35.661+0000 INFO [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache after 786 seconds: MATCH (n:`Investment`) RETURN count(n) AS count
+2018-05-22 03:03:35.662+0000 INFO [o.n.c.i.CommunityCompatibilityFactory] Discarded stale query from the query cache after 786 seconds: MATCH (n:`Investment`) RETURN count(n) AS count
+2018-05-22 03:03:35.876+0000 INFO [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache after 723 seconds: MATCH (n:`Portfolio`) RETURN count(n) AS count
+2018-05-22 03:03:35.876+0000 INFO [o.n.c.i.CommunityCompatibilityFactory] Discarded stale query from the query cache after 723 seconds: MATCH (n:`Portfolio`) RETURN count(n) AS count
+2018-05-22 03:04:58.191+0000 INFO [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache after 675 seconds: MATCH (n:`Portfolio`) RETURN n
+2018-05-22 03:04:58.192+0000 INFO [o.n.c.i.CommunityCompatibilityFactory] Discarded stale query from the query cache after 675 seconds: MATCH (n:`Portfolio`) RETURN n
+2018-05-22 03:05:33.689+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [82]:  Starting check pointing...
+2018-05-22 03:05:33.689+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [82]:  Starting store flush...
+2018-05-22 03:05:33.703+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 82 to [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2018-05-22 03:05:33.704+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 82 to [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2018-05-22 03:05:33.706+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [82]:  Store flush completed
+2018-05-22 03:05:33.706+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [82]:  Starting appending check point entry into the tx log...
+2018-05-22 03:05:33.706+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [82]:  Appending check point entry into the tx log completed
+2018-05-22 03:05:33.706+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [82]:  Check pointing completed
+2018-05-22 03:05:33.706+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2018-05-22 03:05:33.706+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2018-05-22 03:05:38.271+0000 INFO [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache after 389 seconds: MATCH (n:`Portfolio`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2018-05-22 03:05:38.272+0000 INFO [o.n.c.i.CommunityCompatibilityFactory] Discarded stale query from the query cache after 389 seconds: MATCH (n:`Portfolio`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2018-05-22 03:12:24.098+0000 INFO [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache after 528 seconds: MATCH (n:`Investment`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2018-05-22 03:12:24.099+0000 INFO [o.n.c.i.CommunityCompatibilityFactory] Discarded stale query from the query cache after 528 seconds: MATCH (n:`Investment`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2018-05-22 03:12:24.150+0000 INFO [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache after 528 seconds: MATCH (n:`Investment`) RETURN count(n) AS count
+2018-05-22 03:12:24.151+0000 INFO [o.n.c.i.CommunityCompatibilityFactory] Discarded stale query from the query cache after 528 seconds: MATCH (n:`Investment`) RETURN count(n) AS count
+2018-05-22 03:16:22.945+0000 INFO [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache after 767 seconds: MATCH (n:`Portfolio`) RETURN count(n) AS count
+2018-05-22 03:16:22.946+0000 INFO [o.n.c.i.CommunityCompatibilityFactory] Discarded stale query from the query cache after 767 seconds: MATCH (n:`Portfolio`) RETURN count(n) AS count
+2018-05-22 03:17:53.366+0000 INFO [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache after 775 seconds: MATCH (n:`Portfolio`) RETURN n
+2018-05-22 03:17:53.367+0000 INFO [o.n.c.i.CommunityCompatibilityFactory] Discarded stale query from the query cache after 775 seconds: MATCH (n:`Portfolio`) RETURN n
+2018-05-22 03:20:33.874+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [181]:  Starting check pointing...
+2018-05-22 03:20:33.874+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [181]:  Starting store flush...
+2018-05-22 03:20:33.890+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 181 to [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2018-05-22 03:20:33.890+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 181 to [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2018-05-22 03:20:33.892+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [181]:  Store flush completed
+2018-05-22 03:20:33.892+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [181]:  Starting appending check point entry into the tx log...
+2018-05-22 03:20:33.892+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [181]:  Appending check point entry into the tx log completed
+2018-05-22 03:20:33.892+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [181]:  Check pointing completed
+2018-05-22 03:20:33.892+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2018-05-22 03:20:33.892+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2018-05-22 03:29:54.035+0000 INFO [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache after 1455 seconds: MATCH (n:`Portfolio`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}
+2018-05-22 03:29:54.036+0000 INFO [o.n.c.i.CommunityCompatibilityFactory] Discarded stale query from the query cache after 1455 seconds: MATCH (n:`Portfolio`) WHERE (n.uuid = {n_uuid}) RETURN n ORDER BY n.uuid LIMIT {limit_1}

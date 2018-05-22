@@ -29,11 +29,11 @@ RSpec.describe InvestmentsController, type: :controller do
   # Investment. As you add validations to Investment, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    skip("Add a hash of attributes valid for your model")
+    {}
   }
 
   let(:invalid_attributes) {
-    skip("Add a hash of attributes invalid for your model")
+    {}
   }
 
   # This should return the minimal set of values that should be in the session
@@ -87,7 +87,7 @@ RSpec.describe InvestmentsController, type: :controller do
   describe "PUT #update" do
     context "with valid params" do
       let(:new_attributes) {
-        skip("Add a hash of attributes valid for your model")
+        {}
       }
 
       it "updates the requested investment" do

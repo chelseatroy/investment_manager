@@ -15,22 +15,15 @@ class PortfoliosController < ApplicationController
     render json: @portfolio
   end
 
-  # GET /portfolios/new
-  def new
-    @portfolio = Portfolio.new
-  end
-
-  # GET /portfolios/1/edit
-  def edit
-  end
-
   # POST /portfolios
   # POST /portfolios.json
   def create
     @portfolio = Portfolio.new(portfolio_params)
 
     if @portfolio.save
-      render json: @portfolio
+      render json: @portfolio, status: :created
+    else
+      render json: @portfolio.errors, status: :unprocessable_entity
     end
   end
 
@@ -38,7 +31,9 @@ class PortfoliosController < ApplicationController
   # PATCH/PUT /portfolios/1.json
   def update
     if @portfolio.update(portfolio_params)
-      render json: @portfolio
+      render json: @portfolio, status: :ok
+    else
+      render json: @portfolio.errors, status: :unprocessable_entity
     end
   end
 
@@ -56,6 +51,6 @@ class PortfoliosController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def portfolio_params
-    params.require(:portfolio).permit(:name)
+    params.permit(:name)
   end
 end

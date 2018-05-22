@@ -7,11 +7,9 @@ RSpec.describe InvestmentsController, type: :routing do
       expect(:get => "/investments").to route_to("investments#index")
     end
 
-
     it "routes to #show" do
       expect(:get => "/investments/1").to route_to("investments#show", :id => "1")
     end
-
 
     it "routes to #create" do
       expect(:post => "/investments").to route_to("investments#create")

@@ -7,16 +7,8 @@ RSpec.describe PortfoliosController, type: :routing do
       expect(:get => "/portfolios").to route_to("portfolios#index")
     end
 
-    it "routes to #new" do
-      expect(:get => "/portfolios/new").to route_to("portfolios#new")
-    end
-
     it "routes to #show" do
       expect(:get => "/portfolios/1").to route_to("portfolios#show", :id => "1")
-    end
-
-    it "routes to #edit" do
-      expect(:get => "/portfolios/1/edit").to route_to("portfolios#edit", :id => "1")
     end
 
     it "routes to #create" do

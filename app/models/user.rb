@@ -7,5 +7,6 @@ class User
 
   has_secure_password
 
+  has_many :in, :portfolios, origin: :user
 
 end

@@ -5,11 +5,14 @@ class InvestmentsController < ApplicationController
   # GET /investments.json
   def index
     @investments = Investment.all
+
+    render json: {investments: @investments}
   end
 
   # GET /investments/1
   # GET /investments/1.json
   def show
+    render json: @investment
   end
 
   # POST /investments
@@ -18,7 +21,7 @@ class InvestmentsController < ApplicationController
     @investment = Investment.new(investment_params)
 
     if @investment.save
-      render :show, status: :created, location: @investment
+      render json: @investment, status: :created
     else
       render json: @investment.errors, status: :unprocessable_entity
     end
@@ -28,7 +31,7 @@ class InvestmentsController < ApplicationController
   # PATCH/PUT /investments/1.json
   def update
     if @investment.update(investment_params)
-      render :show, status: :ok, location: @investment
+      render json: @investment, status: :ok
     else
       render json: @investment.errors, status: :unprocessable_entity
     end
@@ -48,6 +51,6 @@ class InvestmentsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def investment_params
-      params.fetch(:investment, {})
+      params.permit(:name, :number_of_shares, :free_float_percentage)
     end
 end
