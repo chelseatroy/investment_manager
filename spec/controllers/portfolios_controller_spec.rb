@@ -82,14 +82,14 @@ RSpec.describe PortfoliosController, type: :controller do
   describe "PUT #update" do
     context "with valid params" do
       let(:new_attributes) {
-        {}
+        {name: 'Nameo'}
       }
 
       it "updates the requested portfolio" do
         portfolio = Portfolio.create! valid_attributes
-        put :update, params: {id: portfolio.to_param, portfolio: new_attributes}, session: valid_session
+        put :update, params: new_attributes.merge(id: portfolio.to_param), session: valid_session
         portfolio.reload
-        skip("Add assertions for updated state")
+        expect(portfolio.name).to eq('Nameo')
       end
 
       it "redirects to the portfolio" do
@@ -116,11 +116,6 @@ RSpec.describe PortfoliosController, type: :controller do
       }.to change(Portfolio, :count).by(-1)
     end
 
-    it "redirects to the portfolios list" do
-      portfolio = Portfolio.create! valid_attributes
-      delete :destroy, params: {id: portfolio.to_param}, session: valid_session
-      expect(response).to redirect_to(portfolios_url)
-    end
   end
 
 end

@@ -29,11 +29,11 @@ RSpec.describe InvestmentsController, type: :controller do
   # Investment. As you add validations to Investment, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    {}
+    {number_of_shares: 2}
   }
 
   let(:invalid_attributes) {
-    {}
+    {number_of_shares: 'fakeo'}
   }
 
   # This should return the minimal set of values that should be in the session
@@ -61,16 +61,15 @@ RSpec.describe InvestmentsController, type: :controller do
     context "with valid params" do
       it "creates a new Investment" do
         expect {
-          post :create, params: {investment: valid_attributes}, session: valid_session
+          post :create, params: valid_attributes, session: valid_session
         }.to change(Investment, :count).by(1)
       end
 
       it "renders a JSON response with the new investment" do
 
-        post :create, params: {investment: valid_attributes}, session: valid_session
+        post :create, params: valid_attributes, session: valid_session
         expect(response).to have_http_status(:created)
         expect(response.content_type).to eq('application/json')
-        expect(response.location).to eq(investment_url(Investment.last))
       end
     end
 
@@ -87,14 +86,14 @@ RSpec.describe InvestmentsController, type: :controller do
   describe "PUT #update" do
     context "with valid params" do
       let(:new_attributes) {
-        {}
+        {number_of_shares: 1}
       }
 
       it "updates the requested investment" do
         investment = Investment.create! valid_attributes
-        put :update, params: {id: investment.to_param, investment: new_attributes}, session: valid_session
+        put :update, params: new_attributes.merge(id: investment.to_param), session: valid_session
         investment.reload
-        skip("Add assertions for updated state")
+        expect(investment.number_of_shares).to eq(1)
       end
 
       it "renders a JSON response with the investment" do
@@ -110,7 +109,7 @@ RSpec.describe InvestmentsController, type: :controller do
       it "renders a JSON response with errors for the investment" do
         investment = Investment.create! valid_attributes
 
-        put :update, params: {id: investment.to_param, investment: invalid_attributes}, session: valid_session
+        put :update, params: invalid_attributes.merge(id: investment.to_param), session: valid_session
         expect(response).to have_http_status(:unprocessable_entity)
         expect(response.content_type).to eq('application/json')
       end

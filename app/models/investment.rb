@@ -5,4 +5,6 @@ class Investment
 
   has_one :out, :portfolio, type: :portfolio
   has_one :out, :company, type: :company
+
+  validates :number_of_shares, numericality: { only_integer: true }
 end
