@@ -9,4 +9,6 @@ class User
 
   has_many :in, :portfolios, origin: :user
 
+  validates :name, presence: true
+
 end
