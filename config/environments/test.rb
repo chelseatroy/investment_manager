@@ -40,6 +40,6 @@ Rails.application.configure do
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
   config.neo4j.session.type = :http
-  config.neo4j.session.path = 'http://localhost:7474'
+  config.neo4j.session.path = 'http://localhost:6999'
 
 end

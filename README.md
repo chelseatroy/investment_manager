@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Configuration
 
-Things you may want to cover:
+Install gems
 
-* Ruby version
+gem install bundler
+bundle
+Install neo4j
 
-* System dependencies
+rake neo4j:install[community-3.2.5]
+rake neo4j:disable_auth
+rake neo4j:restart
+If it doesn't work, check to see if a rogue neo4j process is running with ps aux | grep neo4j, and kill it.
 
-* Configuration
+Database creation
 
-* Database creation
+rake neo4j:migrate
+How to run the test suite
 
-* Database initialization
+Install and configure the test environment
 
-* How to run the test suite
+rake neo4j:install[community-3.2.5,test]
+rake neo4j:config[test,6999]
+Start the test environment
 
-* Services (job queues, cache servers, search engines, etc.)
+rake neo4j:start[test]
+Update the test DB
 
-* Deployment instructions
+RAILS_ENV=test rake neo4j:migrate
+Run the tests
 
-* ...
+rspec
+

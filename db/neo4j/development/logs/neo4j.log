@@ -350,3 +350,8 @@ Caused by: java.nio.file.NoSuchFileException: /Users/chelseatroy/workspace/inves
 2018-05-07 03:00:59.658+0000 INFO  Bolt enabled on localhost:7472.
 2018-05-07 03:01:07.791+0000 INFO  Started.
 2018-05-07 03:01:08.934+0000 INFO  Remote interface available at http://localhost:7474/
+2018-06-17 20:23:30.946+0000 INFO  ======== Neo4j 3.3.5 ========
+2018-06-17 20:23:30.990+0000 INFO  Starting...
+2018-06-17 20:23:41.859+0000 INFO  Bolt enabled on localhost:7472.
+2018-06-17 20:23:50.445+0000 INFO  Started.
+2018-06-17 20:23:51.353+0000 INFO  Remote interface available at http://localhost:7474/
