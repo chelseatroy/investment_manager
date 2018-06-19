@@ -6,13 +6,13 @@ class PortfoliosController < ApplicationController
   def index
     @portfolios = Portfolio.all
 
-    render json: {portfolios: @portfolios}
+    render json: {portfolios: @portfolios}, root: false
   end
 
   # GET /portfolios/1
   # GET /portfolios/1.json
   def show
-    render json: @portfolio
+    render json: @portfolio, root: false
   end
 
   # POST /portfolios

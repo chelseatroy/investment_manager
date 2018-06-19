@@ -6,13 +6,13 @@ class InvestmentsController < ApplicationController
   def index
     @investments = Investment.all
 
-    render json: {investments: @investments}
+    render json: {investments: @investments}, root: false
   end
 
   # GET /investments/1
   # GET /investments/1.json
   def show
-    render json: @investment
+    render json: @investment, root: false
   end
 
   # POST /investments

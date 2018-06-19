@@ -1,4 +1,10 @@
-# README
+# Endpoints
+
+##Authentication
+
+curl -X POST 'http://localhost:3001/authenticate' -d '{"email":"[email]", "password":"[password]"}' -H "Content-Type: application/json"
+
+# Neo4j Config
 
 Configuration
 
