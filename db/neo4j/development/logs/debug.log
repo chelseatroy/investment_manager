@@ -1457,3 +1457,27 @@ BatchingMultipleIndexPopulator{activeTasks=2, executor=java.util.concurrent.Thre
 2018-06-17 20:23:48.342+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
 2018-06-17 20:23:50.445+0000 INFO [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
 2018-06-17 20:23:51.354+0000 INFO [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2018-06-17 20:51:53.167+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [237]:  Starting check pointing...
+2018-06-17 20:51:53.167+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [237]:  Starting store flush...
+2018-06-17 20:51:53.195+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 737 to [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2018-06-17 20:51:53.199+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 737 to [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/Users/chelseatroy/workspace/investment_manager/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2018-06-17 20:51:53.202+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [237]:  Store flush completed
+2018-06-17 20:51:53.202+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [237]:  Starting appending check point entry into the tx log...
+2018-06-17 20:51:53.202+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [237]:  Appending check point entry into the tx log completed
+2018-06-17 20:51:53.203+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [237]:  Check pointing completed
+2018-06-17 20:51:53.203+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2018-06-17 20:51:53.203+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2018-06-17 21:06:10.004+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1507ms.
+2018-06-17 21:07:23.007+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1481ms.
+2018-06-17 22:08:10.009+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1286ms.
+2018-06-17 23:34:54.008+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1433ms.
+2018-06-18 00:46:11.010+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1435ms.
+2018-06-18 05:13:30.007+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1425ms.
+2018-06-18 05:13:46.005+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1482ms.
+2018-06-18 07:13:59.623+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 30789ms.
+2018-06-18 09:14:12.259+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 7573ms.
+2018-06-18 11:14:25.216+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5575ms.
+2018-06-18 13:14:38.226+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5492ms.
+2018-06-18 15:14:26.154+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 5594ms.
+2018-06-18 23:11:34.308+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 6276ms.
+2018-06-18 23:15:33.278+0000 WARN [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1440ms.
