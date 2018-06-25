@@ -30,4 +30,7 @@ class Portfolio
   has_one :out, :user, type: :user
   has_many :in, :investments, origin: :portfolio
 
+  def value
+    investments.collect(&:value).sum
+  end
 end

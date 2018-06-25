@@ -10,4 +10,8 @@ class Investment
   has_one :out, :company, type: :company
 
   validates :number_of_shares, numericality: { only_integer: true }
+
+  def value
+    company.share_price * number_of_shares
+  end
 end

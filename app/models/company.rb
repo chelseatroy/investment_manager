@@ -1,6 +1,8 @@
 class Company
   include Neo4j::ActiveNode
 
+  property :share_price, type: Float
+
   #Values to Determine Weight in Portfolios
   property :pollution, type: Float
   property :natural_resource_use, type: Float
